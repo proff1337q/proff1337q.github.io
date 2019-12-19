@@ -1,0 +1,17 @@
+@font-face {
+	font-family: 'Conv_Long Shot Cyrillic';
+	src: url('fonts/Long Shot Cyrillic.eot');
+	src: local('☺'), url('fonts/Long Shot Cyrillic.woff') format('woff'), url('fonts/Long Shot Cyrillic.ttf') format('truetype'), url('fonts/Long Shot Cyrillic.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.header {
+	text-align: center;
+	color: white;
+}
+
+.section {
+	font-family: 'Conv_Long Shot Cyrillic';
+	color: white;
+}

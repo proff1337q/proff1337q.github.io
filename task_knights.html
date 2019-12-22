@@ -1,7 +1,10 @@
 <html>
 <head>
-  <title>Web Font Sample</title>
+  <title>Task Knights</title>
   
+	<link rel="icon" href="images/task/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="images/task/favicon.ico" type="image/x-icon">
+
 	<link rel="stylesheet" type="text/css" media="screen, print" href="style_task.css"/>
 	<link rel="stylesheet" type="text/css" href="addons/fullpage/css/fullpage.css"/>
 	
@@ -15,48 +18,55 @@
 		<div class="section" id="section0">
 			<div class="header" style="font-size: 200px">Task Knights</div>
 			<br><br><br><br><br><br>
-			<div class="header" style="font-size: 80px">The good way to study well</div>
+			<div class="header" style="font-size: 80px">Правильный способ хорошо учиться</div>
 		</div>
-		
 		
 		<div class="section" id="section1">
 			<table width="100%">
-				<tr><th class="header" colspan="2" style="font-size: 100px">KANBAN BOARD</th><tr>
-				<tr><td><br><br><br><br></td><td><br><br><br><br></td><tr>
-				<td width="50%" align="center"><img src="images/task/1.jpg" height="70%"></td>
-				<td width="40%" class="header" style="font-size: 80px; align: center">Kanban board<br>will track your tasks</td>
+				<tr><th class="header" colspan="2" style="font-size: 100px">Канбан доска</th><tr>
+				<td width="50%" align="center"><img src="images/task/1.png" style="position: absolute; top: 400px; left: 100px"></td>
+				<td width="40%" class="header" style="font-size: 80px; align: center"><br>&nbsp;<br>&nbsp;<br>Канбан не позволит<br>забыть о заданиях<br>&nbsp;<br>&nbsp;<br>&nbsp;</td>
 			</table>
 		</div>
-	
 		
 		<div class="section" id="section2">
 			<table width="100%">
-				<tr><th class="header" colspan="2" style="font-size: 100px">PVE CONTENT</th><tr>
-				<tr><td><br><br><br><br></td><td><br><br><br><br></td><tr>
-				<td width="40%" class="header" style="font-size: 80px; align: center">Choose a character<br>and break into the battle</td>
-				<td width="50%" align="center"><img src="images/task/2.jpg" height="70%"></td>
+				<tr><th class="header" colspan="2" style="font-size: 100px">Игрок против монстра</th><tr>
+				<td width="40%" class="header" style="font-size: 80px; align: center"><br>&nbsp;<br>Выберите персонажа<br>и ворвитесь в битву против монстров<br>&nbsp;<br>&nbsp;</td>
+				<td width="50%" align="center"><img id="image_id" src="images/task/2.png"></td>
 			</table>
 		</div>
 		<div class="section" id="section3">
 			<table width="100%">
-				<tr><th class="header" colspan="2" style="font-size: 100px">PVP CONTENT</th><tr>
-				<tr><td><br><br><br><br></td><td><br><br><br><br></td><tr>
-				<td width="50%" align="center"><img src="images/task/3.jpg" height="70%"></td>
-				<td width="40%" class="header" style="font-size: 80px; align: center">Fight real players<br>and show your superiority</td>
+				<tr><th class="header" colspan="2" style="font-size: 100px">Игрок против игрока</th><tr>
+				<td width="50%" align="center"><img src="images/task/3.png" height="70%" style="position: absolute; top: 418px; left: 100px"></td>
+				<td width="40%" class="header" style="font-size: 80px; align: center"><br>&nbsp;<br>Сражайтесь с реальными<br>игроками и покажите свое<br>превосходство<br>&nbsp;<br>&nbsp;</td>
 			</table>
 		</div>
+		
 		<div class="section" id="section4">
 			<table width="100%">
-				<tr><th class="header" colspan="2" style="font-size: 100px">STATISTICS</th><tr>
+				<tr><th class="header" colspan="2" style="font-size: 100px">Статистика</th><tr>
 				<tr><td><br><br><br><br></td><td><br><br><br><br></td><tr>
-				<td width="40%" class="header" style="font-size: 80px; align: center">You will not<br>forget your achievements</td>
-				<td width="50%" align="center"><img src="images/task/4.jpg" height="70%"></td>
+				<td width="40%" class="header" style="font-size: 80px; align: center">Будьте в курсе всех событий<br>и помните о своих достижениях</td>
+				<td width="50%" align="center"><img src="images/task/4.png" height="80%"></td>
 			</table>
 		</div>
+		
 		<div class="section" id="section5">
-			<div class="header" style="font-size: 100px">CONTACT US</div>
+			<div class="header" style="font-size: 100px">Связь с нами</div>
+			<br><br>
+			
+			<p style="text-align:center;"><img src="images/laba2.jpg" height="50%" style="border: 3px solid #000;"><p>
+			<br>
+			<div style="text-align: center">
+				<a href="mailto:ilyaschennikov@yandex.ru"><img src="images/icons/1.png" height="10%" title="ilyaschennikov@yandex.ru"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="https://vk.com/id258761344"><img src="images/icons/2.png" height="10%"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="tel:+79197749974"><img src="images/icons/3.png" height="10%"></a>
+			</div>
 			<br><br><br><br>
-			<div style="text-align: center"><img src="images/icons/1.png" height="10%">&nbsp;&nbsp;<img src="images/icons/2.png" height="10%">&nbsp;&nbsp;<img src="images/icons/3.png" height="10%"></div>
+			<div class="header" style="font-size: 20px">Designed by students for students<br>Inspired by Jason Statham
+			</div>
 		</div>
 	</div>
 	
@@ -80,6 +90,16 @@
         });
 		
 		fullpage_api.setAllowScrolling(true);
+		
+		var images  = ['images/task/2.png', 'images/task/2_1.png', 'images/task/2_2.png'],
+			length  = images.length,
+			index   = 1;
+
+		setInterval(function() {
+			if(index == length) index = 0;
+			document.getElementById('image_id').src = images[index++];
+		}, 2500);
 	</script>
+	
 </body>
 </html>
